@@ -25,8 +25,8 @@ export class AddTaskComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit() {
-    if (!this.text) {
-      alert('Please add a task!');
+    if (!this.text || !this.day) {
+      alert('Please complete form');
       return;
     }
 
