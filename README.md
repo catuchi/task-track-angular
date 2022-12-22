@@ -1,6 +1,6 @@
 # Angular Task Tracker App
 
-Web application that allows to create, read, update and delete tasks. Built with Angular and Json-Server REST API
+Web application that allows users to create, read, update and delete tasks. Built with Angular and Json-Server REST API
 
 ## Usage
 
