@@ -13,8 +13,8 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  // private apiUrl = 'http://localhost:5001/tasks';
-  private apiUrl = 'https://dead-jade-sea-lion-boot.cyclic.app/tasks';
+  private apiUrl = 'http://localhost:5001/tasks';
+  // private apiUrl = 'https://dead-jade-sea-lion-boot.cyclic.app/tasks';
 
   constructor(private http: HttpClient) {}
 
